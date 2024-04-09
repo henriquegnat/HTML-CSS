@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+    color: whitesmoke;
+    font-size: 20px;
+    align-items: center;
+}
+
+form label, form legend{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-padrao{
+    display: block; 
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 40%;
+}   
+
+#checkbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    width: 40%;
+    padding: 20px 0;
+    border-radius: 50px;
+    font-size: 17px;
+    color: whitesmoke;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    background-color: #183650;  
+    border: solid 3px whitesmoke;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #4a657c;
+    color:rgb(0, 0, 0);
+    border-radius: 50px;
+    border: solid 5px #17374b;
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+#submit:active{
+    background-color: #39566c;
+    color:rgb(0, 0, 0);
+    border-radius: 50px;
+    border: solid 5px #17374b;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style-contatos.css">
+    <title>T-Floppy Tecnology</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/t-floppy-tecnology.png" alt="" width="230px" style="background-color: #06273B;" class="cabecalho-img">
+        <nav class="cabecalho-nav">
+            <a href="index.html" class="cabecalho-item"> Menu </a>
+            <a href="contatos.html" class="cabecalho-item"> Contatos </a>
+            <a href="" class="cabecalho-item"> Sobre </a>    
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nome-sobrenome">Nome e Sobrenome</label>
+            <input type="text" name="" id="nome-sobrenome" class="input-padrao" required placeholder="seu nome e sobrenome">
+
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="58" rows="5" class="input-padrao" required></textarea>
+
+            <fieldset class="selecione">
+                <legend>Como prefere nosso ctt???</legend>
+                <label for="radio-email">
+                    <input type="radio" name="radio" id="radio-email"  checked required>Email 
+                </label>
+        
+                <label for="radio-telefone">
+                    <input type="radio" name="radio" id="radio-telefone" required>Telefone 
+                </label>
+               
+
+                <label for="radio-wpp">
+                    <input type="radio" name="radio" id="radio-wpp">WhatsApp
+                </label>
+                
+            </fieldset> 
+            
+            <fieldset>
+                <legend>Que horário quer visitar o Floppy?</legend>
+                <select name="" id="" required>
+                    <option value="">Manhâ</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                    <option value="" selected> Selecione</option>
+                </select>
+             </fieldset>
+
+            <label for="checkbox"> <input type="checkbox" name="checkbox" id="checkbox" checked> Gostaria de receber floppy´s?
+            </label>
+
+            <label for="submit"></label>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </main>
+</body>
+</html>

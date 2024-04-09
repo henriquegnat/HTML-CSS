@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/floppys-wine-white.png" alt="" class="cabecalho-imagem">
+        <nav class="cabecalho-nav">
+            <a href="index.html" class="cabecalho-item"> Menu</a>
+            <a href="#" class="cabecalho-item"> Produtos</a>
+            <a href="contato.html"class="cabecalho-item"> Contato</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="formulario">
+        <form action="">
+            <label for="nome-sobrenome"> Nome e Sobrenome</label>
+            <input type="text" id="nome-sobrenome" required placeholder="seu nome e sobrenome" class="inputs-1">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx" class="inputs-1">
+
+            <label for="email">Email</label>
+            <input type="email" id="emaid" required placeholder="seuemail@dominio.com" class="inputs-1">
+
+            <fieldset id=selecione>
+                <legend>Qual seu gênero?</legend>
+                <label for="genero"><input type="radio" name="selecione" id="genero" value="genero"> Masculino</label>
+                <label for="genero"><input type="radio" name="selecione" id="genero" value="genero"> Feminino</label>
+                <label for="genero"><input type="radio" name="selecione" id="genero" value="genero"> Outro / Não prefiro informar</label>
+        
+            </fieldset>
+            
+            <fieldset id="checkbox">
+                <label for=""><input type="checkbox" name="checkbox-sim" id="checkbox-sim" checked> Receber atualizações e promoções no Email </label>
+            </fieldset>
+
+
+            <input type="submit" value="Enviar" id="botao">
+        </div>
+    </form>
+    </main>
+</body>
+</html>

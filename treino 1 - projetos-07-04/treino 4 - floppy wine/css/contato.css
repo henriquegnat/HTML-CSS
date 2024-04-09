@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap');
+
+body{
+    font-family: "Kreon", serif;
+    background-color: #91434E;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #480014;
+    height: 180px;
+    width: 100%;
+}
+
+.cabecalho-nav a{
+    font-family: "Kreon", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 35px;
+    transition: 1s all;
+}
+
+.cabecalho-nav a:hover{
+    cursor: pointer;
+    color: #91434E;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    margin: 50px 0;
+}
+
+form label{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+form input{
+    margin-top: 10px;
+    padding: 10px 45px;
+}
+
+.inputs-1{
+    border-radius: 13px;
+    border: solid 5px #6d2231;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#selecione legend{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#checkbox{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#botao{
+    font-family: "Kreon", serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 0;
+    padding: 15px 90px;
+    border-radius: 50px;
+    border: solid 3px white;
+    background-color: #6d2231;
+    color: white;
+    text-transform: uppercase;
+    transition: 1s all;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#botao:hover{
+    background-color: #5a1123 ;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#botao:active{
+    background-color: #480014;
+}
+
+@media screen and (max-width: 730px){
+    #main{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen (max-width: 730px;) {
+    .cabecalho{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cabecalho-nav{
+        width: 70%;
+        position: absolute;
+    }
+}
